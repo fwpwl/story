@@ -81,9 +81,9 @@ WSGI_APPLICATION = 'xlyz.wsgi.application'
 DATABASES = {
     "default": {
             "ENGINE": "django.db.backends.postgresql_psycopg2",
-            "NAME": "xlyz",
+            "NAME": "story",
             "USER": "root",
-            "PASSWORD": "",
+            "PASSWORD": "root",
             "HOST": "127.0.0.1", 
             "PORT": "5432"
         }
